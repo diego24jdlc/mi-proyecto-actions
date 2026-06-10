@@ -6,7 +6,7 @@ on:
 # 2. ¿Qué va a hacer?
 jobs:
   build:
-    # Tipo de máquina virtual que usaremos
+     # Tipo de máquina virtual que usaremos
      runs-on: ubuntu-latest
      # Pasos secuenciales
      steps:
