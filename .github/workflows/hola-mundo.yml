@@ -5,7 +5,7 @@ on:
  branches: [ main ]
 # 2. ¿Qué va a hacer?
 jobs:
- saludo:
+ build:
  # Tipo de máquina virtual que usaremos
  runs-on: ubuntu-latest
  # Pasos secuenciales
