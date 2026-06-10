@@ -6,9 +6,9 @@ on:
 # 2. ¿Qué va a hacer?
 jobs:
   build:
- # Tipo de máquina virtual que usaremos
+    # Tipo de máquina virtual que usaremos
     runs-on: ubuntu-latest
- # Pasos secuenciales
+    # Pasos secuenciales
     steps:
     - name: Imprimir saludo en consola
     run: echo "¡Hola Mundo! Tu GitHub Action funciona perfectamente."
